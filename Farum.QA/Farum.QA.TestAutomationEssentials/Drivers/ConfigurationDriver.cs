@@ -77,7 +77,7 @@ namespace Farum.QA.TestAutomationEssentials.Drivers
             }
             else
             {
-                _outputHelper.WriteLine("[BuildConfiguration] Browser variable not defined in given runsettings!");
+                _outputHelper.WriteLine("[BuildConfiguration] Browser variable not defined in given runsettings! Ensure that you've set browser or you've selected runsettings!");
                 throw new NotImplementedException();
             }
 
